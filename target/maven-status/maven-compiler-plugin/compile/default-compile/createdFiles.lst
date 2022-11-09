@@ -1,0 +1,8 @@
+configurasi\Config.class
+repository\KaryawanRepository.class
+model\Karyawan.class
+configurasi\DataSource.class
+main\MainApp.class
+model\Absen.class
+controller\MainController.class
+repository\AbsenRepository.class
