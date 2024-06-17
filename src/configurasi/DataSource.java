@@ -16,8 +16,8 @@ public class DataSource {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             connect = DriverManager
-                    .getConnection("jdbc:mysql://localhost:3306/"+schemaName+"?"
-                            + "user="+usernameDatabase+"&password="+passwordDatabase+"");
+                .getConnection("jdbc:mysql://localhost:3306/"+schemaName+"?"
+                    + "user="+usernameDatabase+"&password="+passwordDatabase+"");
         } catch (Exception e){
             System.out.println("Error Connect To Database");
             System.out.println(e);
